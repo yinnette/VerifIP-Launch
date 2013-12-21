@@ -247,7 +247,7 @@ class TC_header_main {
         ?>
 
         	<div class="social-block <?php echo $class ?>">
-        		<div class="login-links"><a href=""><span class="glyphicon glyphicon-comment"></span> Chat with Us</a><a href=""><span class="glyphicon glyphicon-user"></span> Login Portal</a></div>
+        		<div class="login-links"><a href="/contact-us/" target="_blank"><span class="glyphicon glyphicon-comment"></span> Chat with Us</a><a href="https://secure.verifip.com/sign_in" target="_blank"><span class="glyphicon glyphicon-user"></span> Login Portal</a></div>
         		<!--<?php if ( 0 != tc__f( '__get_option', 'tc_social_in_header') ) : ?>
 	        		<?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
 	           		<?php echo tc__f( '__get_socials' ) ?>
