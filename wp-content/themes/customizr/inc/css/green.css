@@ -6669,7 +6669,7 @@ div.hook-tree a.debug-tip:before,
 .visible-desktop {
   display: inherit !important;
 }
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .hidden-desktop {
     display: inherit !important;
   }
@@ -7431,7 +7431,7 @@ div.hook-tree a.debug-tip:before,
     margin-left: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -8565,7 +8565,7 @@ div.hook-tree a.debug-tip:before,
     position: static;
   }
 }
-@media (max-width: 979px) {
+@media (max-width: 1023px) {
   body {
     padding-top: 0;
   }
@@ -8801,7 +8801,7 @@ p {
     left: -80px;
   }
 }
-@media (max-width: 979px) {
+@media (max-width: 1023px) {
   .tc-header .outside {
     display: block;
     text-align: center;
