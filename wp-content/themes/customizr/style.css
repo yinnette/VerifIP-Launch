@@ -1077,15 +1077,40 @@ input[type=submit] {
     .tc-header .brand {
         width: auto !important;
         display: inline-block;
+        float: left!important;
     } 
     .container.outside {
         display: none!important;
     }
 .navbar-wrapper {
 display: inline-block;
-float: right;
+position: absolute;
+right:0;
 }
 footer.entry-meta {display:none!important}
+.navbar .nav > li > .dropdown-menu:before {display: none;}
+.open > .dropdown-menu {border: 0;
+margin-top: 10px;
+padding: 5px;}
+
+.dropdown-menu > li > a {
+  font-size: 12px !important;
+text-transform: uppercase !important;
+color: #888;
+padding: 0 10px !important;
+height: 40px;
+line-height: 40px;
+border-bottom: 1px solid #eee;
+}
+.dropdown-menu > li > a:hover {
+  background: #eee!important
+}
+
+
+
+
+
+
 
 @media (min-width: 1024px) and (max-width: 1279px)  {
 body, p {
@@ -1098,6 +1123,9 @@ body.blog article {padding:28px;}
 body.blog .article-container {padding-bottom: 100px;}
 .tc-header .brand {margin-left:20px;}
 }
+
+
+
 
 /* Desktop LG */
 @media (min-width: 1280px) {
@@ -1250,7 +1278,7 @@ padding: 20px!important;
 body.blog article {
 width: 48%;
 }
-footer#footer {margin-top: 110px!important}
+footer#footer {padding-top: 110px!important}
 body.blog article {padding: 25px;height: 360px;}
 body.single-post .tc-sidebar {display:none!important}
 body.single-post #main-wrapper {
@@ -1265,6 +1293,10 @@ margin-left:0!important
 padding: 10px 30px!important}
 section.solutions .span3 {
 height: auto;}
+h2, .h2 {
+  line-height: 36px!important;
+}
+
 
 }
 
@@ -1290,7 +1322,7 @@ padding: 0px!important; min-height: 280px;position: static;
 background-image: url(/wp-content/uploads/2013/12/shutterstock_158522147.jpg);
 background-repeat: repeat-x;
 background-position: center top;
-background-size: 160% auto;
+background-size: 180% auto;
 }
 section.home h1 {
 top: 50px;
@@ -1308,7 +1340,7 @@ height: 60px;
 line-height: 65px;}
 body.home {background-size: auto 270px;}
 section.home .actions {
-margin-top: 110px!important;padding: 0 20px;
+margin-top: 140px!important;padding: 0 20px;
 }
 .home .testimonial {background: #75B541;
 height: auto;position: static;margin-top:20px;}
@@ -1318,7 +1350,7 @@ float: none;}
 .entry-content {float: left;}
 .nav-collapse, .nav-collapse.collapse {
 top: 64px;
-margin-top: 0px;
+margin-top: -28px;
 }
 #main-wrapper {margin-top: -20px;margin-bottom:0!important;}
 .testimonial .quote p {padding:0!important}
@@ -1379,7 +1411,13 @@ padding: 20px;
 }
 .span9.article-container {
 padding: 10px!important;}
-
+.row-fluid [class*="span"] {
+  margin-left: 0!important;
+  margin-bottom: 10px!important;
+}
+.footer-widgets .widget-area .span4:nth-child(2) {
+  height: auto!important;
+}
 
 
 

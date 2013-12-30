@@ -203,7 +203,7 @@ class TC_footer_main {
 	    <div class="span4 backtop">
 	    	<?php tc__f( 'tip' , __FUNCTION__ , __CLASS__, __FILE__ ); ?>
 	    	<p class="pull-right">
-	    		<a class="back-to-top" href="#"><?php _e( 'Back to top' , 'customizr' ) ?></a>
+	    		<a class="back-to-top"  href="#logo"><?php _e( 'Back to top' , 'customizr' ) ?></a>
 	    	</p>
 
 	    </div>

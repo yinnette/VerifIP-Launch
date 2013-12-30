@@ -8718,7 +8718,7 @@ div.hook-tree a.debug-tip:before,
     padding-right: 10px;
   }
 }
-@media (min-width: 980px) {
+@media (min-width: 1023px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
